@@ -1,0 +1,36 @@
+@media screen and (max-width: 600px) {
+    body{
+        width:100%;
+    }
+    #content-box{
+        width:80%;
+        height:700px;
+    }
+    #line{
+        height:655px;
+    }
+    #input-content{
+        height:420px;
+    }
+    #your-name{
+        width:150px;
+    }
+    #crush-name{
+        width:150px;
+    }
+    .developer{
+        padding:3% 0;
+        line-height:35px;
+        text-align:center;
+        background-color:pink;
+       }
+
+@media screen and (min-height: 1024px){
+    body{
+        height:1070px;
+    }
+    #copyright{
+        margin-top:200px;
+    }
+
+}

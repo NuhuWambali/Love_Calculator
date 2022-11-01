@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+   
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="./javascript/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/css/all.css">
+    <link rel="stylesheet" href="./css/Responsive.css">
+    
+</head>
+<body>
+<div style="text-align:left" id="modaldev">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Developer info
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Love Calculator</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <section id="about">
+                            <div class="developer">
+                                <h2 class="developer-head"> Meet our developer</h2>
+                                <img class="dev-img" src="./images/developer.jpg" alt="developer-image">
+                                <p class="dev-text">Hello! i'm nuh , a Full-Stack developer. i'm big fan of PhP, Laravel,Python,Javascript and Bootstrap
+                                    from the early stage
+                                </p>
+                                <button type="button" class="btn btn-outline-dark"<a href="mailto:wambalinuhu@gmail.com"></a>EMAIL ME</button>    
+                                <div class="contact">
+                                  <a href="https://m.facebook.com/noah.wambali.3?ref=bookmarks"> <i class="social-icon fa-brands fa-facebook fa-2x"></i></a>
+                                  <a href="https://www.instagram.com/nuh_wambali/"><i class="social-icon fa-brands fa-instagram fa-2x" ></i></a>
+                                  <a href="https://www.youtube.com/channel/UCMubxUwGTm7PgVffUWrSXzQ"><i class="social-icon fa-brands fa-youtube  fa-2x"></i></a>
+                                  <p class="copyright">© Copyright Nuhuwambali 2022</p>
+                                </div>
+                              </section>
+                    </div>
+                </div>
+           </div>
+  </div>
+</div>
+    <div class="header">
+        <h1>Find Your love chance</h1>
+    </div>
+          <!-- div for content box here -->
+    <div id="content-box">
+        <div id="line"><!--  this div for creating stylish line -->
+        <h1>Love Calculator</h1>
+        <p>Enter your name and your crush's name to see the chance of this relation will work</p>
+        <br>
+        <div id="input-content">
+        <!-- content for input fields -->
+        <label class="label" for="your-name">Your Name : </label>
+        <input type="text" id="your-name" name="your-name"><br><br>
+        <lable class="label" for="crush-name">Crush Name : </lable>
+        <input type="text" id="crush-name" name="crush-name"></input><br><br>
+        <button  id="calculate" >Calculate</button>
+        <h1 style="color:black;"id="result-message"></h1>
+        <p style="color:rgb(241, 21, 201); font-size:2rem;" id="result-percentage"></p>
+        
+        <div>
+        <p style="color:rgb(64, 99, 240); font-size:2rem;" id="message"></p>
+        </div>
+    </div>
+</div>
+</div>
+<div id="copyright">
+   <p>© Copyright Nuhuwambali 2022</p>
+</div>
+</div>
+</body>
+</html>

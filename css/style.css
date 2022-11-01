@@ -1,0 +1,155 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:url(../images/background.jpg);
+    background-size:cover;
+    -webkit-background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    text-align:center;
+    height:auto;
+    width:100%;
+}
+.header{
+    color:#fff;
+    text-shadow: 2px 2px  20px red;
+    text-align:center;
+    padding-top:20px;
+    font-size:1.7rem;
+}
+#content-box{
+    background-color:whitesmoke;
+    opacity:0.9;
+    width:600px;
+    height:600px;
+    padding:20px;
+    margin:0 auto;
+    margin-top:50px;
+    border-radius: 15px 10px;
+    -webkit-border-radius: 15px 10px;
+    -moz-border-radius: 15px 10px;
+    -ms-border-radius: 15px 10px;
+    -o-border-radius: 15px 10px;
+   
+}
+#content-box p{
+    font-size:1.2rem;
+}
+#input-content{
+    background-color:pink;
+    height:380px;
+    padding-top:40px;
+    border-radius:23px;;
+    -webkit-border-radius:23px;
+    -moz-border-radius:23px;
+    -ms-border-radius:23px;
+    -o-border-radius:23px;
+}
+#line{
+    border:2px solid pink;
+    padding:10px;
+    height:560px;
+    border-radius:15px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    -ms-border-radius:15px;
+    -o-border-radius:15px;
+}
+
+#your-name{
+    width:200px;
+    height:30px;
+    font-size:1.2rem;
+    margin-left:10px;
+    border:2px solid #000;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+#crush-name{
+    width:200px;
+    height:30px;
+    font-size:1.2rem;
+    border:2px solid #000;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+#calculate{
+    width:150px;
+    height:50px;
+    color:#fff;
+    border: 2px solid rgb(243, 246, 247);
+    background-color: rgb(47, 51, 51);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#calculate:hover{
+    color:#000;
+    background-color:white;
+    border:2px solid #000;
+}
+.label{
+    font-size:1.2rem;
+}
+#copyright{
+    color:whitesmoke;
+    margin-top:30px;
+    text-align:left;
+}
+
+
+.developer{
+    padding:3% 15%;
+    text-align:center;
+    background-color:pink;
+   }
+   .developer-head{
+    color:#fff;
+    text-shadow:5px 5px 20px black;
+    margin-bottom:15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   .dev-img{
+    width:50%;
+    height:60%;
+    border:4px solid #fff;
+    border-radius:50%;
+   }
+   #exampleModalLabel{
+    text-align:center;
+   }
+   .dev-text{
+    text-align:center;
+    color:#000;
+    font-size:1.3rem;
+    padding:0 10%;
+    text-shadow:5px 5px 6px white;
+   }
+   .contact{
+    text-align: center;
+   }
+   .social-icon{
+    margin:20px 10px;
+   color: #fff;
+   }  
+   .social-icon:hover{
+    color:#000;
+   }
+   .copyright{
+    padding-top:0px;
+    margin-bottom:10px;
+    color:#000;
+    text-align:center;
+   }  
+   #modaldev{
+    padding-top:2%;
+   }
+
+  
